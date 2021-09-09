@@ -1,0 +1,196 @@
+body {
+  font-family: Roboto, arial, sans-serif;
+}
+
+nav {
+  text-align: right;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+}
+
+form {
+  /* background: red; */
+}
+
+input {
+  /* margin: 10px; */
+}
+
+label {}
+
+.center {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.searchInput {
+  width: 55%;
+  height: 34px;
+  font-size: 16px;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: none;
+}
+
+.searchButton {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.a9nkvf {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: relative;
+  left: 133px;
+  bottom: 25px;
+  white-space: nowrap;
+}
+
+/* .flex {
+  margin: 10px;
+  padding: 10px;
+  background: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* Advanced */
+/* .inline {
+  display: inline;
+} */
+/* .inlineBlock {
+  display: inline-block;
+} */
+.appbar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.gy3Eif {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.Mza7yc {
+  max-width: 1140px;
+  min-width: 200px;
+  margin: 40px auto auto 45px;
+}
+
+.jfk-textinput {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 100%;
+}
+
+.grid-container {
+  /* padding: 10px; */
+  display: grid;
+  grid-template-columns: none;
+  /* grid-column-gap: 20px; */
+  grid-row-gap: 20px;
+  background-color: #2196F3;
+  /* padding: 20px; */
+  /* text-align: left; */
+  /* all for grid */
+  /* vertically (block column axis) aligns the whole content/container(every item)
+  align-content: center; */
+  /* horizontally (inline row axis) aligns the whole content/container(every item)
+  justify-content: center; */
+  /* vertically (block column axis) aligns the grid items (makes the items smallers) */
+  /* align-items: center; */
+  /* horizontally (block column axis) aligns the grid items */
+  /* justify-items:strech; */
+}
+
+.grid-item {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.item1 {
+  grid-column: 1 / 2;
+  /* min-width: 190px; */
+  /* margin:auto; */
+}
+
+.item2 {
+  grid-column: 2 / 15;
+}
+
+.flex-container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+  flex-direction: row;
+  max-width: 800px;
+}
+
+.flex-item {
+  /* background-color: red; */
+  margin: 10px;
+  /* align and justify contents inside of flex item */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-itemButton {
+  /* background-color: red; */
+  margin: 10px;
+  /* align and justify contents inside of flex item */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flexItem1 {
+  flex-grow: 1;
+  min-width: 190px;
+  max-width: 190px;
+}
+
+.flexItem2 {
+  flex-grow: 8;
+}
+
+.searchButtonAdvanced {
+  box-shadow: none;
+  background-color: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  margin: 10px 0;
+}
