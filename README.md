@@ -5,4 +5,4 @@ Designed a front-end for Google Search, Google Image Search, and Google Advanced
 This static website uses HTML and CSS.
 
 ## Access
-Website available at https://error808.github.io/Search/googleImageSearch.html
+Website available at https://error808.github.io/Search/
